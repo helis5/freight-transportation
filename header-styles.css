@@ -1,0 +1,95 @@
+header{
+	display: flex;
+	align-items: center;
+	background-color: #2F343A;
+	flex-wrap: wrap;
+	width: 100%;
+	min-width: 322px;
+	color: white;
+}
+
+header .data{
+	display: flex;
+	background-color: #C8A35F;
+	width:100%;
+	height:31px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 405px;
+	font-size: 12px;
+}
+
+header .data .language{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+	width: 82px;
+}
+
+.inactive{
+	color: #E4D1AF;
+}
+
+header .info{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 27px;
+	margin-bottom: 27px;
+	justify-content: space-between;
+	color: white;
+	font-size: 14px;
+	flex-direction: row;
+}
+
+header .info .logo{
+	display: flex;
+	align-items: center;
+	margin-right: 30px;
+}
+
+header .info .logo img{
+	height: 50px;
+}
+
+header .info .menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.vertical-stripe{
+	background-color: white;
+	width: 1px;
+	min-width: 1px;
+	height: 40px;
+}
+
+.menu .place{
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+	min-width: 121.27px;
+}
+
+.menu .place img{
+	width: 15px;
+	margin-right: 13.35px;
+}
+
+.links{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		min-width: 498.27px;
+	}
+
+.links a{
+	margin-left: 30px;
+}
+

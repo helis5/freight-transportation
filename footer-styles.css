@@ -1,0 +1,43 @@
+
+footer{
+	background-color: #C8A35F;
+	height: 161px;
+	width:100%;
+	display:flex;
+	align-items:center;	
+	justify-content:center;
+	flex-wrap:wrap;
+	font-size: 14px;
+}
+
+footer .company{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	min-width: 911px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+footer .company img{
+	height: 46px;
+}
+
+footer .company div{
+	display: flex;
+	flex-direction: column;
+}
+
+footer .company div span{
+
+	line-height: 24px;
+}
+
+footer .company div span.white{
+	color: white;
+}
+
+footer .company div span.developer{
+	text-decoration: underline;
+}

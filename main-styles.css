@@ -1,0 +1,200 @@
+main{
+	display: flex;
+	justify-content:center;
+	width: 100%;
+	align-items: center;
+	flex-direction: column;
+}
+
+main .truck{
+	display: flex;
+	width: 100%;
+	height: 620px;
+	color: white;
+	flex-direction: column;
+	background-color: Olive; 
+	justify-content: space-between;
+	align-items: center;
+}
+
+main .truck img{
+	width: 17.65px;
+	margin-bottom: 50px;
+}
+
+.freight-transportation{
+	display: flex;
+	width: 920px;
+	height: 245px;
+	border: 2px solid #C8A35F;
+	flex-direction: column;
+	align-items: center;
+	font-size: 18px;
+	margin-top: 155px;
+}
+
+main .truck .freight-transportation p{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+main div.menu{
+	display: flex;
+	flex-direction: column;
+	/*justify-content: space-between;*/
+	width: 100%;
+	height: 1942px;
+	background-color: #2F343A;
+}
+
+.menu .more-details{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 561px;
+	/*background-color: DarkSlateGrey;*/
+	align-items: center;
+}
+
+.more-details .more{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 445px;
+	height: 430px;
+	/*background-color: green;*/
+	margin-left: 20%;
+	font-size: 18px;
+	color: white;
+}
+
+.more-details .more .horizontal-stripe{
+	display: flex;
+	width: 90px;
+	height: 6px;
+	background-color: #C8A35F;
+	margin-top: 17%;
+}
+
+.more input.more-details{
+	width: 220px;
+	height: 55px;
+    padding: 10px;
+	color: white;
+	font-size: 18px;
+	background: #C8A35F;
+    border: 0;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 17%;
+}
+
+main .menu .more-details .more h1{
+	margin: 0px;
+}
+
+main .menu .more-details .more p{
+	margin: 0px;
+}
+
+main .menu .more-details .paging{
+	display: flex;
+	width: 600px;
+	height: 400px;
+	/*background-color: green;*/
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 20%;
+}
+
+.more-details .paging img{
+	height: 266px;
+}
+
+.more-details .paging .arrows{
+	display: flex;
+	flex-direction: column;
+	height: 250px;
+	justify-content: space-between;
+	color: #C8A35F;
+	margin-right: 20%;
+}
+
+.more-details .paging .arrows div{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+.more-details .paging .arrows div.right-arrow img{
+	width: 65px;
+	height: 15px;
+	margin-left: 31px;
+}
+
+.more-details .paging .arrows div.left-arrow img{
+	width: 65px;
+	height: 15px;
+	margin-right: 31px;
+}
+
+main .menu .services{
+	display: flex;
+	width: 100%;
+	height: 744px;
+	background-color: DarkSlateGrey;
+	justify-content: center;
+	align-items: center;
+}
+
+.services .air-transportation .horizontal-stripe{
+	display: flex;
+	width: 90px;
+	height: 6px;
+	background-color: #C8A35F;
+}
+
+.services .air-transportation{
+	width: 1108px;
+	height: 504px;
+	background-color: #2F343A;
+}
+
+main .menu .services .air-transportation h1{
+	color: white;
+	font-size: 40px;
+	margin-bottom: 60px;
+}
+
+main .menu .services .air-transportation div.menu1{
+	display: flex;
+	flex-direction: column;
+	order: 1;
+}
+
+main .menu .services .air-transportation .menu1 .group{
+	display: flex;
+	flex-direction: row;
+}
+
+main .menu .services .air-transportation .menu1 .group .active-cell{
+	width: 276px;
+	height: 180px;	
+	background-color: #C8A35F;
+	margin: 1px;
+}
+
+main .menu .services .air-transportation .menu1 .group .inactive-cell{
+	width: 276px;
+	height: 180px;
+	background-color: #393F47;
+	margin: 1px;
+}
+
+
+main div.map{
+	width: 100%;
+	height: 450px;
+	background-color: CadetBlue;
+}
