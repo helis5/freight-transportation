@@ -144,7 +144,6 @@ main .menu .services{
 	display: flex;
 	width: 100%;
 	height: 744px;
-	/*background-color: DarkSlateGrey;*/
 	justify-content: center;
 	align-items: center;
 }
@@ -224,6 +223,22 @@ main .menu .services .air-transportation .menu1 .group .inactive-cell{
 
 .inactive-cell img{
 	margin-top: 35px;
+}
+
+main .menu .about-company{
+	display: flex;
+	justify-content: center;
+	background-color: DarkSlateGrey;
+	width: 100%;
+	height: 722px;
+}
+
+main .menu .about-company .count{
+	display: flex;
+	justify-content: center;
+	background-color: #2F343A;
+	width: 1110px;
+	height: 482px;
 }
 
 main div.map{
