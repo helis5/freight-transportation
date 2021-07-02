@@ -12,7 +12,7 @@ main .truck{
 	height: 620px;
 	color: white;
 	flex-direction: column;
-	background-color: Olive; 
+	background-image:url("images/Rectangle 2.jpg") ;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -21,6 +21,7 @@ main .truck img{
 	width: 17.65px;
 	margin-bottom: 50px;
 }
+
 
 .freight-transportation{
 	display: flex;
@@ -176,25 +177,57 @@ main .menu .services .air-transportation div.menu1{
 main .menu .services .air-transportation .menu1 .group{
 	display: flex;
 	flex-direction: row;
+	color: white;
+	font-size: 18px;
 }
 
 main .menu .services .air-transportation .menu1 .group .active-cell{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 	width: 276px;
 	height: 180px;	
 	background-color: #C8A35F;
 	margin: 1px;
 }
 
+.active-cell .ellipse{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70px;
+	height: 70px;
+	background-color: white;
+	border-radius: 50%;
+	margin-top: 35px;
+}
+
+.ellipse p{
+	margin-bottom: 35px;
+}
+
 main .menu .services .air-transportation .menu1 .group .inactive-cell{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 	width: 276px;
 	height: 180px;
 	background-color: #393F47;
 	margin: 1px;
 }
 
+.inactive-cell p{
+	margin-bottom: 35px;
+}
+
+.inactive-cell img{
+	margin-top: 35px;
+}
 
 main div.map{
 	width: 100%;
 	height: 450px;
-	background-color: CadetBlue;
+	background-image: url("images/maps.jpg");
 }
