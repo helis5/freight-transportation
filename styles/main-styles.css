@@ -228,17 +228,87 @@ main .menu .services .air-transportation .menu1 .group .inactive-cell{
 main .menu .about-company{
 	display: flex;
 	justify-content: center;
-	background-color: DarkSlateGrey;
+	/*background-color: DarkSlateGrey;*/
 	width: 100%;
 	height: 722px;
 }
 
 main .menu .about-company .count{
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
+	align-items: center;
 	background-color: #2F343A;
 	width: 1110px;
 	height: 482px;
+}
+
+main .menu .about-company .count .group-1 h1{
+	font-size: 40px;
+}
+
+main .menu .about-company .count .group-1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 445px;
+	height: 320px;
+	/*background-color: grey;*/
+	color: white;
+}
+
+main .menu .about-company .count .group-1 .horizontal-stripe{
+	display: flex;
+	width: 90px;
+	height: 6px;
+	background-color: #C8A35F;
+}
+
+main .menu .about-company .count .group-2{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 600px;
+	height: 320px;
+	/*background-color: grey;*/
+}
+
+main .menu .about-company .count .group-2 .row-group{
+	display: flex;
+	flex-direction: row;
+}
+
+main .menu .about-company .count .group-2 .row-group div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 200px;
+	height: 160px;
+	background-color: white;
+	/*border: 1px solid #C8A35F;*/
+}
+
+main .menu .about-company .count .group-2 .row-group img{
+	/*border: 1px solid #C8A35F;*/
+	width: 200px;
+	height: 160px;
+}
+
+main .menu .about-company .count .group-2 .row-group div .numeral{
+	font-size: 64px;
+	margin: 0;
+	margin-top: 23px;
+}
+
+main .menu .about-company .count .group-2 .row-group div .middle-text{
+	font-size: 18px;
+	margin: 0;
+}
+
+main .menu .about-company .count .group-2 .row-group div .small-text{
+	font-size: 12px;
+	margin: 0;
+	margin-bottom: 25px;
 }
 
 main div.map{
