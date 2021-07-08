@@ -30,7 +30,7 @@ footer .company div{
 }
 
 footer .company div span{
-
+	cursor: pointer;
 	line-height: 24px;
 }
 
@@ -40,4 +40,5 @@ footer .company div span.white{
 
 footer .company div span.developer{
 	text-decoration: underline;
+	cursor: pointer;
 }

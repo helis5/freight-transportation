@@ -88,6 +88,7 @@ main div.menu{
 	display: flex;
 	justify-content: center;
 	margin-bottom: 17%;
+	cursor: pointer;
 }
 
 main .menu .more-details .more h1{
@@ -125,6 +126,7 @@ main .menu .more-details .paging{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	cursor: pointer;
 }
 
 
@@ -220,6 +222,7 @@ main .menu .services .air-transportation .menu1 .group .inactive-cell:hover .ell
 
 main .menu .services .air-transportation .menu1 .group .inactive-cell:hover {
 	background-color: #C8A35F;
+	cursor: pointer;
 }
 
 main .menu .services .air-transportation .menu1 .group .inactive-cell:hover .ellipse{

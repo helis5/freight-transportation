@@ -23,7 +23,7 @@ header .data .language{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	
+	cursor: pointer;
 	width: 82px;
 }
 
@@ -49,6 +49,7 @@ header .info .logo{
 	display: flex;
 	align-items: center;
 	margin-right: 30px;
+	cursor: pointer;
 }
 
 header .info .logo img{
@@ -75,6 +76,7 @@ header .info .menu{
 	align-items: center;
 	margin-left: 30px;
 	min-width: 121.27px;
+	cursor: pointer;
 }
 
 .menu .place img{
@@ -91,5 +93,6 @@ header .info .menu{
 
 .links a{
 	margin-left: 30px;
+	cursor: pointer;
 }
 
