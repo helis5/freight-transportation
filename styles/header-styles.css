@@ -19,6 +19,11 @@ header .data{
 	font-size: 12px;
 }
 
+header .data span:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
 header .data .language{
 	display: flex;
 	flex-direction: row;
@@ -79,20 +84,30 @@ header .info .menu{
 	cursor: pointer;
 }
 
+.menu .place:hover{
+	text-decoration: underline;
+}
+
 .menu .place img{
 	width: 15px;
 	margin-right: 13.35px;
 }
 
 .links{
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		min-width: 498.27px;
-	}
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	min-width: 498.27px;
+	height: 100%;
+
+}
 
 .links a{
 	margin-left: 30px;
 	cursor: pointer;
+}
+
+.links a:hover{
+	text-decoration: underline;
 }
 

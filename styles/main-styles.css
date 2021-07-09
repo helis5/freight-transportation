@@ -91,6 +91,14 @@ main div.menu{
 	cursor: pointer;
 }
 
+.more input.more-details:hover{
+	background-color: #F0D46D;
+	border-radius: 5px;
+	-webkit-transition: all .15s;
+	-o-transition: all .15s;
+	transition: all .15s;
+}
+
 main .menu .more-details .more h1{
 	margin: 0px;
 }
@@ -223,6 +231,9 @@ main .menu .services .air-transportation .menu1 .group .inactive-cell:hover .ell
 main .menu .services .air-transportation .menu1 .group .inactive-cell:hover {
 	background-color: #C8A35F;
 	cursor: pointer;
+	-webkit-transition: all .15s;
+	-o-transition: all .15s;
+	transition: all .15s;
 }
 
 main .menu .services .air-transportation .menu1 .group .inactive-cell:hover .ellipse{
